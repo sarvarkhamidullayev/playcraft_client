@@ -94,4 +94,6 @@ onMounted(async () => {
 onUnmounted(() => {
   clearInterval(intervalId);
 });
+
+console.log("Project was changed");
 </script>
